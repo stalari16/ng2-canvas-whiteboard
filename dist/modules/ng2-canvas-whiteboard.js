@@ -6,8 +6,7 @@ import { CommonModule } from '@angular/common';
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/canvas-whiteboard-update.model.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 /** @enum {number} */
 const CanvasWhiteboardUpdateType = {
@@ -19,22 +18,6 @@ CanvasWhiteboardUpdateType[CanvasWhiteboardUpdateType.START] = 'START';
 CanvasWhiteboardUpdateType[CanvasWhiteboardUpdateType.DRAG] = 'DRAG';
 CanvasWhiteboardUpdateType[CanvasWhiteboardUpdateType.STOP] = 'STOP';
 class CanvasWhiteboardUpdate {
-    /**
-     * @param {?=} x
-     * @param {?=} y
-     * @param {?=} type
-     * @param {?=} UUID
-     * @param {?=} selectedShape
-     * @param {?=} selectedShapeOptions
-     */
-    constructor(x, y, type, UUID, selectedShape, selectedShapeOptions) {
-        this.x = x;
-        this.y = y;
-        this.type = type;
-        this.UUID = UUID;
-        this.selectedShape = selectedShape;
-        this.selectedShapeOptions = selectedShapeOptions;
-    }
     /**
      * @param {?} json
      * @return {?}
@@ -51,6 +34,22 @@ class CanvasWhiteboardUpdate {
                 "arseable");
             return null;
         }
+    }
+    /**
+     * @param {?=} x
+     * @param {?=} y
+     * @param {?=} type
+     * @param {?=} UUID
+     * @param {?=} selectedShape
+     * @param {?=} selectedShapeOptions
+     */
+    constructor(x, y, type, UUID, selectedShape, selectedShapeOptions) {
+        this.x = x;
+        this.y = y;
+        this.type = type;
+        this.UUID = UUID;
+        this.selectedShape = selectedShape;
+        this.selectedShapeOptions = selectedShapeOptions;
     }
     /**
      * @return {?}
@@ -73,8 +72,7 @@ class CanvasWhiteboardUpdate {
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/template.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 /** @type {?} */
 const DEFAULT_STYLES = `
@@ -173,8 +171,7 @@ const DEFAULT_STYLES = `
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/canvas-whiteboard.service.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class CanvasWhiteboardService {
     constructor() {
@@ -218,8 +215,7 @@ class CanvasWhiteboardService {
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/canvas-whiteboard-point.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class CanvasWhiteboardPoint {
     /**
@@ -234,8 +230,7 @@ class CanvasWhiteboardPoint {
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/canvas-whiteboard-shape-options.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class CanvasWhiteboardShapeOptions {
     constructor() {
@@ -250,8 +245,7 @@ class CanvasWhiteboardShapeOptions {
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/canvas-whiteboard-shape.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 /**
  * @abstract
@@ -277,8 +271,7 @@ class CanvasWhiteboardShape {
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/circle-shape.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class CircleShape extends CanvasWhiteboardShape {
     /**
@@ -338,8 +331,7 @@ class CircleShape extends CanvasWhiteboardShape {
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/rectangle-shape.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class RectangleShape extends CanvasWhiteboardShape {
     /**
@@ -398,8 +390,7 @@ class RectangleShape extends CanvasWhiteboardShape {
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/free-hand-shape.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class FreeHandShape extends CanvasWhiteboardShape {
     /**
@@ -479,8 +470,7 @@ class FreeHandShape extends CanvasWhiteboardShape {
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/smiley-shape.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class SmileyShape extends CanvasWhiteboardShape {
     /**
@@ -557,8 +547,7 @@ class SmileyShape extends CanvasWhiteboardShape {
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/star-shape.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class StarShape extends CanvasWhiteboardShape {
     /**
@@ -640,8 +629,7 @@ class StarShape extends CanvasWhiteboardShape {
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/line-shape.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class LineShape extends CanvasWhiteboardShape {
     /**
@@ -694,8 +682,7 @@ class LineShape extends CanvasWhiteboardShape {
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/canvas-whiteboard-shape.service.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 /**
  * @record
@@ -801,8 +788,7 @@ CanvasWhiteboardShapeService.ctorParameters = () => [];
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/canvas-whiteboard.component.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class CanvasWhiteboardComponent {
     /**
@@ -2109,8 +2095,7 @@ CanvasWhiteboardComponent.propDecorators = {
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/canvas-whiteboard-shape-selector.component.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class CanvasWhiteboardShapeSelectorComponent {
     /**
@@ -2207,8 +2192,7 @@ CanvasWhiteboardShapeSelectorComponent.propDecorators = {
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/canvas-whiteboard-colorpicker.component.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class CanvasWhiteboardColorPickerComponent {
     /**
@@ -2373,8 +2357,7 @@ CanvasWhiteboardColorPickerComponent.propDecorators = {
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/canvas-whiteboard-shape-preview.component.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class CanvasWhiteboardShapePreviewComponent {
     /**
@@ -2424,13 +2407,12 @@ CanvasWhiteboardShapePreviewComponent.decorators = [
 CanvasWhiteboardShapePreviewComponent.propDecorators = {
     shapeConstructor: [{ type: Input }],
     shapeOptions: [{ type: Input }],
-    canvas: [{ type: ViewChild, args: ['canvasWhiteboardShapePreview',] }]
+    canvas: [{ type: ViewChild, args: ['canvasWhiteboardShapePreview', { static: false },] }]
 };
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/ng2-canvas-whiteboard.module.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class CanvasWhiteboardModule {
 }
@@ -2455,20 +2437,17 @@ CanvasWhiteboardModule.decorators = [
 
 /**
  * @fileoverview added by tsickle
- * Generated from: src/ng2-canvas-whiteboard.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
 /**
  * @fileoverview added by tsickle
- * Generated from: public_api.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
 /**
  * @fileoverview added by tsickle
- * Generated from: ng2-canvas-whiteboard.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 /**
  * Generated bundle index. Do not edit.

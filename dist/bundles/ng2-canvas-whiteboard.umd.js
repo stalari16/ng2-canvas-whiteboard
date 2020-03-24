@@ -19,8 +19,7 @@ var __extends = (undefined && undefined.__extends) || (function () {
 })();
 /**
  * @fileoverview added by tsickle
- * Generated from: src/canvas-whiteboard-update.model.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 /** @enum {number} */
 var CanvasWhiteboardUpdateType = {
@@ -86,15 +85,13 @@ var CanvasWhiteboardUpdate = /** @class */ (function () {
 }());
 /**
  * @fileoverview added by tsickle
- * Generated from: src/template.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 /** @type {?} */
 var DEFAULT_STYLES = "\n.canvas_whiteboard_button {\n    display: inline-block;\n    outline: 0px;\n    padding-top: 7px;\n    margin-bottom: 0;\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 1.42857143;\n    text-align: center;\n    white-space: nowrap;\n    vertical-align: middle;\n    -ms-touch-action: manipulation;\n    touch-action: manipulation;\n    cursor: pointer;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    background-image: none;\n    border: 1px solid transparent;\n    border-radius: 4px;\n}\n\n.canvas_whiteboard_buttons { \n    z-index: 3;\n}\n\n@media (max-width: 400px) {\n     .canvas_whiteboard_buttons {\n            position: absolute;\n            z-inde\n            top: 0;\n            width: 100%;\n            text-align: center;\n      }\n}\n        \n@media (min-width: 401px) { \n    .canvas_whiteboard_buttons {\n        position: absolute;\n        right: 0%;\n        color: #fff;\n    }\n}\n\n.canvas_whiteboard_buttons {\n    padding: 5px;\n}\n\n.canvas_whiteboard_buttons > button {\n    margin: 5px;\n}\n\n.canvas_whiteboard_button-draw_animated {\n    -webkit-animation: pulsate 1s ease-out;\n    -webkit-animation-iteration-count: infinite;\n}\n\n@-webkit-keyframes pulsate {\n    0% {\n        -webkit-transform: scale(0.1, 0.1);\n        opacity: 0.0;\n    }\n    50% {\n        opacity: 1.0;\n    }\n    100% {\n        -webkit-transform: scale(1.2, 1.2);\n        opacity: 0.0;\n    }\n}\n.canvas_wrapper_div {\n    width: 100%;\n    height: 100%;\n    border: 0.5px solid #e2e2e2;\n}\n\n.canvas_whiteboard_button-clear {\n    padding-top: 5px;\n}\n\n.canvas_whiteboard {\n    position: absolute;\n    z-index: 1;\n}\n\n.incomplete_shapes_canvas_whiteboard {\n    position: absolute;\n    z-index: 2;\n}\n\n";
 /**
  * @fileoverview added by tsickle
- * Generated from: src/canvas-whiteboard.service.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var CanvasWhiteboardService = /** @class */ (function () {
     function CanvasWhiteboardService() {
@@ -138,8 +135,7 @@ var CanvasWhiteboardService = /** @class */ (function () {
 }());
 /**
  * @fileoverview added by tsickle
- * Generated from: src/canvas-whiteboard-point.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var CanvasWhiteboardPoint = /** @class */ (function () {
     /**
@@ -154,8 +150,7 @@ var CanvasWhiteboardPoint = /** @class */ (function () {
 }());
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/canvas-whiteboard-shape-options.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var CanvasWhiteboardShapeOptions = /** @class */ (function () {
     function CanvasWhiteboardShapeOptions() {
@@ -170,8 +165,7 @@ var CanvasWhiteboardShapeOptions = /** @class */ (function () {
 }());
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/canvas-whiteboard-shape.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 /**
  * @abstract
@@ -197,8 +191,7 @@ var CanvasWhiteboardShape = /** @class */ (function () {
 }());
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/circle-shape.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var CircleShape = /** @class */ (function (_super) {
     __extends(CircleShape, _super);
@@ -260,8 +253,7 @@ var CircleShape = /** @class */ (function (_super) {
 }(CanvasWhiteboardShape));
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/rectangle-shape.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var RectangleShape = /** @class */ (function (_super) {
     __extends(RectangleShape, _super);
@@ -322,8 +314,7 @@ var RectangleShape = /** @class */ (function (_super) {
 }(CanvasWhiteboardShape));
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/free-hand-shape.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var FreeHandShape = /** @class */ (function (_super) {
     __extends(FreeHandShape, _super);
@@ -405,8 +396,7 @@ var FreeHandShape = /** @class */ (function (_super) {
 }(CanvasWhiteboardShape));
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/smiley-shape.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var SmileyShape = /** @class */ (function (_super) {
     __extends(SmileyShape, _super);
@@ -485,8 +475,7 @@ var SmileyShape = /** @class */ (function (_super) {
 }(CanvasWhiteboardShape));
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/star-shape.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var StarShape = /** @class */ (function (_super) {
     __extends(StarShape, _super);
@@ -570,8 +559,7 @@ var StarShape = /** @class */ (function (_super) {
 }(CanvasWhiteboardShape));
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/line-shape.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var LineShape = /** @class */ (function (_super) {
     __extends(LineShape, _super);
@@ -626,8 +614,7 @@ var LineShape = /** @class */ (function (_super) {
 }(CanvasWhiteboardShape));
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/canvas-whiteboard-shape.service.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 /**
  * @record
@@ -729,8 +716,7 @@ CanvasWhiteboardShapeService.decorators = [
 CanvasWhiteboardShapeService.ctorParameters = function () { return []; };
 /**
  * @fileoverview added by tsickle
- * Generated from: src/canvas-whiteboard.component.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var CanvasWhiteboardComponent = /** @class */ (function () {
     /**
@@ -1988,8 +1974,7 @@ CanvasWhiteboardComponent.propDecorators = {
 };
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/canvas-whiteboard-shape-selector.component.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var CanvasWhiteboardShapeSelectorComponent = /** @class */ (function () {
     /**
@@ -2058,8 +2043,7 @@ CanvasWhiteboardShapeSelectorComponent.propDecorators = {
 };
 /**
  * @fileoverview added by tsickle
- * Generated from: src/canvas-whiteboard-colorpicker.component.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var CanvasWhiteboardColorPickerComponent = /** @class */ (function () {
     /**
@@ -2171,8 +2155,7 @@ CanvasWhiteboardColorPickerComponent.propDecorators = {
 };
 /**
  * @fileoverview added by tsickle
- * Generated from: src/shapes/canvas-whiteboard-shape-preview.component.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var CanvasWhiteboardShapePreviewComponent = /** @class */ (function () {
     function CanvasWhiteboardShapePreviewComponent() {
@@ -2218,12 +2201,11 @@ CanvasWhiteboardShapePreviewComponent.decorators = [
 CanvasWhiteboardShapePreviewComponent.propDecorators = {
     shapeConstructor: [{ type: _angular_core.Input }],
     shapeOptions: [{ type: _angular_core.Input }],
-    canvas: [{ type: _angular_core.ViewChild, args: ['canvasWhiteboardShapePreview',] }]
+    canvas: [{ type: _angular_core.ViewChild, args: ['canvasWhiteboardShapePreview', { static: false },] }]
 };
 /**
  * @fileoverview added by tsickle
- * Generated from: src/ng2-canvas-whiteboard.module.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var CanvasWhiteboardModule = /** @class */ (function () {
     function CanvasWhiteboardModule() {

@@ -13,8 +13,7 @@ export declare class CanvasWhiteboardComponent implements OnInit, AfterViewInit,
     options: CanvasWhiteboardOptions;
     batchUpdateTimeoutDuration: number;
     private _imageUrl;
-    set imageUrl(imageUrl: string);
-    get imageUrl(): string;
+    imageUrl: string;
     aspectRatio: number;
     drawButtonClass: string;
     clearButtonClass: string;

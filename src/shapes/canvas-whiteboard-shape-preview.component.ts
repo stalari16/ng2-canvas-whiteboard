@@ -28,7 +28,7 @@ export class CanvasWhiteboardShapePreviewComponent implements AfterViewInit, OnC
     @Input() readonly shapeConstructor: INewCanvasWhiteboardShape<CanvasWhiteboardShape>;
     @Input() readonly shapeOptions: CanvasWhiteboardShapeOptions;
 
-    @ViewChild('canvasWhiteboardShapePreview') canvas: ElementRef;
+    @ViewChild('canvasWhiteboardShapePreview', { static: false }) canvas: ElementRef;
 
     ngAfterViewInit() {
         this.drawShapePreview();
